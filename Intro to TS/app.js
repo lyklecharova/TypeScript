@@ -36,8 +36,50 @@
 // const arr4: boolean[] = [true, true, false, false];
 // const arr5: any[] = [1, 'goole', false, {name: "Peshho"}];
 // console.log(arr5);
-// Tuples
-var tuple1 = [123, "Hi"];
-var tuple2 = [true, { name: "Peshho" }];
-console.log(tuple1);
-console.log(tuple2);
+// // Tuples     key     value
+// let tuple1: [number, string] = [123, "Hi"];
+// let tuple2: [boolean, object] = [true, {name: "Peshho"}];
+// let tupleObjKey: [string, object] = ["user", {name: "User123"}];
+// console.log(tuple1);
+// console.log(tuple2);
+// Enum
+// enum DaysOfWeek{
+//     // M = 1,
+//     // T,
+//     // W,
+//     // Th,
+//     // F,
+//     M,
+//     T,
+//     W,
+//     Th,
+//     F,
+// }
+// const currentDay = 1;
+// if(currentDay === DaysOfWeek.M){
+//     console.log('Is Monday')
+// }
+// // Any, Unknown -> "type safe"
+// let a:unknown;
+// a = 5;
+// a = {name: "Pesho"};
+// a = true;
+// console.log(a);
+// // Void
+// function myPrint(input: string):void {
+//     console.log(input);
+//     // doesn't gas retunr value!
+// }
+// function myPrint2(input:string):string{
+//     return `[from print function] : ${input}`;
+// }
+// myPrint('Hello!')
+// console.log(myPrint2('Hello!'));
+// Optional params
+function optionalParams(param1, param2) {
+    if (param1 === void 0) { param1 = 5; }
+    if (param2 === void 0) { param2 = "Hi from default"; }
+    console.log({ param1: param1, param2: param2 });
+}
+// from left to right ->
+optionalParams();
