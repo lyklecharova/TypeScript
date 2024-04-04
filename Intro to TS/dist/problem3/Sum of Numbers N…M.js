@@ -8,4 +8,4 @@ function sumOfNumbers(N, M) {
     console.log(sum);
 }
 sumOfNumbers('1', '5');
-sumOfNumbers('-8', '20'); 
+sumOfNumbers('-8', '20');
