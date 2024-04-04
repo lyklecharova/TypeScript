@@ -7,6 +7,7 @@
 // arr = [true, 1, 'c'];
 var a = 5;
 a = 'string';
+a = 'string2';
 console.log(a + ' ' + a);
 // TypeScript is superset of JavaScript
 // ES6 is superset of ES5
