@@ -1,6 +1,10 @@
 # TypeScript
+
 TypeScript
 
-`npm install -g typescript` - install TS
-`node ./_fileName` - run 
-`tsc 'fileName'` - run TS code
+Installation TS:
+    <li>`npm install -g typescript` - install TS</li>
+
+Run:
+    <li>`node ./_fileName` - run</li>
+    <li>`tsc 'fileName'` - run TS code</li>
