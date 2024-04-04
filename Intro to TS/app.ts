@@ -107,20 +107,27 @@
 
 // }
 
-// Return types in Functions
-const getNum = (): number => 5;
-const getNum2 = (): string =>{
-    return "5";
-};
+// // Return types in Functions
+// const getNum = (): number => 5;
+// const getNum2 = (): string =>{
+//     return "5";
+// };
 
-const getNum3 = function(): number{
-    return 5;
-};
+// const getNum3 = function(): number{
+//     return 5;
+// };
 
-function getNum4(): undefined{
-    return;
-};
+// function getNum4(): undefined{
+//     return;
+// };
 
-const getNum5 : () => number  = () =>{
-    return 5;
-};
+// const getNum5 : () => number  = () =>{
+//     return 5;
+// };
+
+
+// // Never
+// let x = () : never =>{
+//     while (true) {}
+// };
+// console.log(x);
