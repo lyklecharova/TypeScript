@@ -22,5 +22,5 @@ function mathOperations(num1, num2, operator) {
     }
     console.log(result);
 }
-mathOperations(5, 6, '+');
-mathOperations(3, 5.5, '*');
+mathOperations(5, 6, "+");
+mathOperations(3, 5.5, "*");
