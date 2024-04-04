@@ -75,11 +75,37 @@
 // }
 // myPrint('Hello!')
 // console.log(myPrint2('Hello!'));
-// Optional params
-function optionalParams(param1, param2) {
-    if (param1 === void 0) { param1 = 5; }
-    if (param2 === void 0) { param2 = "Hi from default"; }
-    console.log({ param1: param1, param2: param2 });
-}
-// from left to right ->
-optionalParams();
+// // Optional params
+// function optionalParams(param1 = 5, param2?:string):void{
+//     console.log({param1, param2});
+// }
+// // from left to right ->
+// optionalParams(1);
+// // Default arguments
+// function optionalParams2(param1 = 5, param2:"Hi from default"):void{
+//     console.log({param1, param2});
+// }
+// // Return types in Functions
+// const getNum = (): number => 5;
+// const getNum2 = (): string =>{
+//     return "5";
+// };
+// const getNum3 = function(): number{
+//     return 5;
+// };
+// function getNum4(): undefined{
+//     return;
+// };
+// const getNum5 : () => number  = () =>{
+//     return 5;
+// };
+// // Never
+// let x = () : never =>{
+//     while (true) {}
+// };
+// console.log(x);
+// Debugging
+var arr = [1, 2, 3, 4, 5];
+arr.forEach(function (e) {
+    console.log(e);
+});
