@@ -9,6 +9,7 @@
 
 var a = 5;
 a = 'string';
+a = 'string2';
 
 console.log(a + ' ' + a);
 
